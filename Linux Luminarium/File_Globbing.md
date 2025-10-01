@@ -27,5 +27,5 @@
 - Process: cat all the files in /challenge/files until file is found. It was found in pwncollege-flag
 - Flag: pwn.college{AIh9DoBKXTBq9uNmc_5vDmiEaBj.QX2QTM3EDLzUjN0czW}
 ## Tab Completetion on Commands
-- Process: cat all the files in /challenge/files until file is found. It was found in pwncollege-flag
-- Flag: pwn.college{AIh9DoBKXTBq9uNmc_5vDmiEaBj.QX2QTM3EDLzUjN0czW}
+- Process: write command pwncollege and hot tab to complete it
+- Flag: pwn.college{gnIRZ6KRu1XpOwiub0wYpF54hB4.QX1QTM3EDLzUjN0czW}

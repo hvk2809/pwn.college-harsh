@@ -23,6 +23,9 @@
 ## Greping Errors
 - Process: first redirect standard error to standard output using 2>&1 and then grep pwn
 - Flag: pwn.college{AmAkRzGzb8Ke1fJRBpkj-v8-vsr.dVDM5QDLzUjN0czW}
+## Filtering with grep -v
+- Process: pipe the command /challenge/run to grep -v DECOY to find all the lines which do not have the word DECOY
+- Flag: pwn.college{Y-12tiQp0SeeptOrr3ObUwMBL_k.QX4ETM3EDLzUjN0czW}
 ## Duplicating Piped Data with Tee
 - Process: tee the copy of pwn to different file and then cat the file to get secret code and then execute both the command
 - Flag: pwn.college{80y2Y8lMCa-F-PVY53PYHZeGiQ3.dFjM5QDLzUjN0czW}
