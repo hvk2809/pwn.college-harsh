@@ -29,10 +29,16 @@
 ## Duplicating Piped Data with Tee
 - Process: tee the copy of pwn to different file and then cat the file to get secret code and then execute both the command
 - Flag: pwn.college{80y2Y8lMCa-F-PVY53PYHZeGiQ3.dFjM5QDLzUjN0czW}
+## Process Subsitution for Input
+- Process: Use diff command and process subsitution to to achieve the goal
+- Flag: pwn.college{8UC3_uAOWpU5h0toMqHhLsG4yFh.QX2AzM4EDLzUjN0czW}
 ## Writing to Multiple Commands
 - Process: Duplicate the data to give input in two files using tee >()
 - Flag: pwn.college{8KKzRGazMR6KGQTQxXxsZqUMyGo.dBDO0UDLzUjN0czW}
 ## Split-piping stderr and stdout
 - Process: Send stderr to /challenge/the and stdout to /challenge/planet from /challenge/hack
 - Flag: pwn.college{sfq9jbovLejTbSdOx8PxHU2Ykq-.dFDNwYDLzUjN0czW}
+## Named Pipes
+- Process: First create a FIFO using mkfifo and then open it as a reader using cat after that redirect /challenge/run to the created fifo
+- Flag: pwn.college{UXNxnXopcWtayHXWHBfN9fobUEq.QXzMzM4EDLzUjN0czW}
 

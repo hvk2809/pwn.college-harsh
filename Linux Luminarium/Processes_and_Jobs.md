@@ -8,6 +8,9 @@
 ## Inturupting Processes
 - Process: Interreput the process using ^C
 - Flag: pwn.college{8lZN3gl3wMUi_MXaZZ_SK2hDduU.dNDN4QDLzUjN0czW}
+## Killing Misbehaving Processe
+- Process: first find the id of /challenge/decoys using ps -ef and then kill it after this run /challenge/run while will copy the flag to /tmp/flag_fifo and then cat the pipe to get the flag
+- Flag: pwn.college{8K1iKo_1f-i06XUDC7WA-gcqNT-.QX0MzM4EDLzUjN0czW}
 ## Suspending Processes
 - Process: first run /challenge/run and then suspend it using ^Z and then again run it
 - Flag: pwn.college{EXB5ZYE35N4GWGyjtQVt-scWiCL.dVDN4QDLzUjN0czW}
