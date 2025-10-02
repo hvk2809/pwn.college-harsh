@@ -26,3 +26,12 @@
 ## Scrpting with Conditionals
 - Process: Write a shellbang script with the condition to change pwn to college and then run /challenge/run
 - Flag: pwn.college{kOcUCB1zBxL4n9kMTsjE8VYGLUq.QX2MzM4EDLzUjN0czW}
+## Scripting with Default Cases
+- Process: Write a shellbang script with if and else condition where if it is "pwn" gives college else "nope"
+- Flag: pwn.college{UQrK32BcfSbwQJv71qybvZPEh9J.QX3MzM4EDLzUjN0czW}
+## Scripting with Multiple Conditions
+- Process: Write a if else ladder to output the correct word for specific arguments
+- Flag: pwn.college{80zkBSN7dH6juWmBmDBg9_LnJWY.QX4MzM4EDLzUjN0czW}
+## Reading Shell Scripts
+- Process: cat the script and then find the password run the command and the enter the found password
+- Flag: pwn.college{cNZnDf5IGPqtCrIsAMymnD2QnCw.QXyADO4EDLzUjN0czW}

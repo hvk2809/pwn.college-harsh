@@ -5,6 +5,9 @@
 ## Setting PATH
 - Process: set the PATH=/challenge/more_commands/ and then run /challenge/run
 - Flag: pwn.college{41YrzE5zTtEWtY5YZtqIQQca6D4.dVzNyUDLzUjN0czW}
+## Finding Commands
+- Process: Using which command find the location of win and then go that directory flag will be present
+- Flag: pwn.college{UAGtwx0DUVHQAsHo_rEo5e2f7TD.QX3MTM3EDLzUjN0czW}
 ## Adding Commands
 - Process: first find cat command directory using find / -name cat and then create win and inside the file write "usr/bin/cat /flag" and make it a executable file using chmod. After this change the PATH to /home/hacker and then run /challenge/run
 - Flag: pwn.college{o0x2AReUUdAtRyQVoPhwe2-7lts.dZzNyUDLzUjN0czW}
